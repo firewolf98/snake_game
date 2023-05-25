@@ -18,6 +18,7 @@ public class GamePanel extends JPanel implements ActionListener{
 	int appleY;
 	char direction = 'R';
 	boolean running = false;
+	boolean gameStarted = false;
 	Timer timer;
 	Random random;
 	
@@ -43,7 +44,6 @@ public class GamePanel extends JPanel implements ActionListener{
 	}
 	
 	public void draw(Graphics g) {
-		
 		if(running) {
 			for(int i=0;i<SCREEN_HEIGHT/UNIT_SIZE;i++) {
 				g.drawLine(i*UNIT_SIZE, 0, i*UNIT_SIZE, SCREEN_HEIGHT);
@@ -69,8 +69,7 @@ public class GamePanel extends JPanel implements ActionListener{
 			g.drawString("Score: "+applesEaten, (SCREEN_WIDTH-metrics.stringWidth("Score: "+applesEaten))/2, g.getFont().getSize());
 		} else {
 			gameOver(g);
-		}
-		
+		}	
 	}
 	
 	public void newApple() {
