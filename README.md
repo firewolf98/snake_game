@@ -40,5 +40,3 @@ if you want to start it with a graphical interface.
 
 The authors of this project are:
 - Luca Esposito (https://github.com/firewolf98) (https://www.linkedin.com/in/lucaesposito98/)
-
-Student of Data Science & Machine Learning at the University of Salerno.
