@@ -20,21 +20,7 @@ git clone https://github.com/firewolf98/snake_game.git
 
 ### 3️⃣ Start the application
 
-Before starting the application, insert the generated key(s) from gpt4all into the _keys.json_ file.
-
-From the terminal, run
-
-```sh
-python main.py
-```
-
-if you want to start the application from the command line, or 
-
-```sh
-python ui_main.py
-```
-
-if you want to start it with a graphical interface.
+Start the _SnakeGame.java_ file.
 
 ## 📜 Authors
 
