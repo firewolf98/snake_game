@@ -25,4 +25,4 @@ Start the _SnakeGame.java_ file.
 ## 📜 Authors
 
 The authors of this project are:
-- Luca Esposito (https://github.com/firewolf98) (https://www.linkedin.com/in/lucaesposito98/)
+- Luca Esposito [GitHub](https://github.com/firewolf98) [LinkedIn](https://www.linkedin.com/in/lucaesposito98/)
