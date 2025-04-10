@@ -18,7 +18,7 @@ The Snake Game.
 git clone https://github.com/firewolf98/snake_game.git
 ```
 
-### 3️⃣ Start the application
+### 2️⃣ Start the application
 
 Start the _SnakeGame.java_ file.
 
